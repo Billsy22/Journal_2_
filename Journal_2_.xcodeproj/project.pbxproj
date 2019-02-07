@@ -11,6 +11,7 @@
 		164BCC81220C87A80082D58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164BCC7F220C87A80082D58B /* Main.storyboard */; };
 		164BCC83220C87AA0082D58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164BCC82220C87AA0082D58B /* Assets.xcassets */; };
 		164BCC86220C87AA0082D58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164BCC84220C87AA0082D58B /* LaunchScreen.storyboard */; };
+		164BCC93220C8A760082D58B /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164BCC92220C8A760082D58B /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		164BCC82220C87AA0082D58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164BCC85220C87AA0082D58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164BCC87220C87AA0082D58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164BCC92220C8A760082D58B /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		164BCC8F220C89FE0082D58B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				164BCC92220C8A760082D58B /* Entry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164BCC93220C8A760082D58B /* Entry.swift in Sources */,
 				164BCC7C220C87A80082D58B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = Journal_2_/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Journal_2_/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = Journal_2_/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Journal_2_/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
