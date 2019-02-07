@@ -23,6 +23,19 @@ class EntryController {
     func addNewEntry(title: String, body: String) {
         let entry = Entry(title: title, body: body)
         self.entries.insert(entry, at: 0)
+        saveToPersistence()
+    }
+    
+    func remove(entry: Entry) {
+        guard let index = entries.index(of: entry) else { return }
+        self.entries.remove(at: index)
+        saveToPersistence()
+    }
+    
+    func update(entry: Entry, newTitle: String, newBody: String) {
+        entry.title = newTitle
+        entry.body = newBody
+        saveToPersistence()
     }
     
     // MARK: -  Persistence
